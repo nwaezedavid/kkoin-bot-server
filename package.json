@@ -1,13 +1,15 @@
 {
-  "name": "kkoin-earner-bot-server",
+  "name": "kkoin-earner-server",
   "version": "1.0.0",
-  "description": "Telegram bot server for kkoin earner app",
+  "description": "Backend for kkoin earner Telegram Mini App, handling bot commands and secure Monetag postbacks.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "telegraf": "^4.16.3"
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "telegraf": "^4.16.1"
   }
 }
-
